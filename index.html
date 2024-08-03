@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Support Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="logos">
+            <img src="C:\Users\s.shyaka\Downloads\logosMHSP.png" alt="logo">
+            <h1>MHSP UBUZIMA</h1>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#resources">Educational Resources</a></li>
+                <li><a href="#self-assessment">Self-Assessment Tool</a></li>
+                <li><a href="#user-classes">User Classes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2 id="titles"><b>MENTAL HEALTH SUPPORT PLATFORM - MHSP UBUZIMA</b></h2>
+        <h2>Welcome to the Mental Health Support Platform</h2>
+        <p>Our mission is to provide accessible, culturally sensitive mental health resources and support to individuals across Africa. We offer a range of services including educational materials, self-assessment tools, peer support forums, and professional counseling services.</p>
+        <p>Explore our platform to find information, connect with others, and get the help you need to improve your mental well-being.</p>
+    </section>
+
+    <section id="resources">
+        <h2>Educational Resources</h2>
+        <div class="resource-item">
+            <h3>Understanding Mental Health</h3>
+            <p>This article provides an overview of mental health, including common conditions, symptoms, and treatment options. <a href="#">Read more</a>.</p>
+        </div>
+        <div class="resource-item">
+            <h3>Video: Coping Strategies for Stress</h3>
+            <p>Watch this video to learn practical strategies for managing stress and enhancing your emotional resilience. <a href="#">Watch now</a>.</p>
+        </div>
+        <div class="resource-item">
+            <h3>Infographic: Signs of Depression</h3>
+            <p>View our infographic to understand the key signs of depression and when to seek help. <a href="#">View infographic</a>.</p>
+        </div>
+    </section>
+
+    <section id="self-assessment">
+        <h2>Self-Assessment Tool</h2>
+        <form id="assessment-form">
+            <label for="mood">How are you feeling today?</label>
+            <select id="mood" name="mood">
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="bad">Bad</option>
+            </select>
+            <button type="button" onclick="submitAssessment()">Submit</button>
+        </form>
+        <div id="assessment-result"></div>
+    </section>
+
+    <section id="user-classes">
+        <h2>User Classes and Characteristics</h2>
+
+        <div class="user-class">
+            <h3>General Users (Individuals)</h3>
+            <p><strong>Characteristics:</strong></p>
+            <ul>
+                <li>Diverse age range, including adolescents, young adults, and older adults.</li>
+                <li>Varied levels of education and tech-savviness.</li>
+                <li>Residents of urban, peri-urban, and rural areas across Africa.</li>
+                <li>May experience various mental health issues such as stress, anxiety, depression, or other psychological conditions.</li>
+            </ul>
+            <p><strong>Needs:</strong></p>
+            <ul>
+                <li>Access to reliable mental health information and resources.</li>
+                <li>Tools for self-assessment and self-care.</li>
+                <li>Peer support and community engagement.</li>
+                <li>Professional counseling services.</li>
+            </ul>
+        </div>
+
+        <div class="user-class">
+            <h3>Mental Health Professionals</h3>
+            <p><strong>Characteristics:</strong></p>
+            <ul>
+                <li>Licensed counselors, psychologists, psychiatrists, and therapists.</li>
+                <li>Varied levels of experience in providing mental health care.</li>
+                <li>Based in different regions, potentially offering services in multiple languages.</li>
+            </ul>
+            <p><strong>Needs:</strong></p>
+            <ul>
+                <li>Platform to connect with individuals seeking counseling.</li>
+                <li>Tools for managing appointments and client interactions.</li>
+                <li>Access to educational materials and professional resources.</li>
+                <li>Secure communication channels for providing online therapy.</li>
+            </ul>
+        </div>
+
+        <div class="user-class">
+            <h3>Administrators</h3>
+            <p><strong>Characteristics:</strong></p>
+            <ul>
+                <li>Platform managers and content moderators.</li>
+                <li>Technical staff responsible for maintenance and updates.</li>
+                <li>Content creators and curators.</li>
+            </ul>
+            <p><strong>Needs:</strong></p>
+            <ul>
+                <li>Tools for user management, content moderation, and platform analytics.</li>
+                <li>Secure admin panel for managing platform operations.</li>
+                <li>Workflow for content approval and publication.</li>
+                <li>Analytics and reporting tools to track platform usage and performance.</li>
+            </ul>
+        </div>
+
+        <div class="user-class">
+            <h3>Stakeholders and Partners</h3>
+            <p><strong>Characteristics:</strong></p>
+            <ul>
+                <li>NGOs, health organizations, and governmental bodies.</li>
+                <li>Partners providing additional resources or support services.</li>
+                <li>Potential funders or sponsors.</li>
+            </ul>
+            <p><strong>Needs:</strong></p>
+            <ul>
+                <li>Insights into platform impact and user engagement.</li>
+                <li>Collaboration tools and partnership management.</li>
+                <li>Access to aggregated data and reports on mental health trends.</li>
+                <li>Opportunities for co-creating content or services.</li>
+            </ul>
+        </div>
+
+        <div class="user-class">
+            <h3>Content Contributors</h3>
+            <p><strong>Characteristics:</strong></p>
+            <ul>
+                <li>Mental health experts, educators, and advocates.</li>
+                <li>Writers, video producers, and graphic designers.</li>
+                <li>Volunteers and community leaders.</li>
+            </ul>
+            <p><strong>Needs:</strong></p>
+            <ul>
+                <li>Platform to contribute and share educational content.</li>
+                <li>Tools for creating, editing, and submitting content.</li>
+                <li>Feedback on content performance and user engagement.</li>
+                <li>Collaboration with other contributors and stakeholders.</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mental Health Support Platform. All rights reserved.</p>
+        <p>Follow us on <a href="#">Facebook</a>, <a href="#">Twitter</a>, and <a href="#">Instagram</a>.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
