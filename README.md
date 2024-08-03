@@ -90,20 +90,73 @@ The Mental Health Support Platform for Africa is a comprehensive, user-friendly,
 
 ## Installation
 
-1. Clone the repository:
+Follow these steps to set up the project on your local machine:
+
+### Prerequisites
+
+- Ensure you have the following installed:
+  - [Git](https://git-scm.com/downloads)
+  - A web browser (e.g., Chrome, Firefox, Edge)
+
+### Steps
+
+1. **Clone the Repository**
+
+    Open your terminal and run the following command to clone the repository:
+
     ```sh
     git clone https://github.com/yourusername/mental-health-support-platform.git
     ```
 
-2. Navigate to the project directory:
+2. **Navigate to the Project Directory**
+
+    Change to the project directory:
+
     ```sh
     cd mental-health-support-platform
     ```
 
-3. Open the `index.html` file in your web browser to view the platform:
+3. **Open the Project in Your Browser**
+
+    If you are using a Unix-based system (Linux or macOS), you can open the `index.html` file directly in your default web browser using the following command:
+
     ```sh
     open index.html
     ```
+
+    On Windows, you can use the following command:
+
+    ```sh
+    start index.html
+    ```
+
+    Alternatively, you can manually open the `index.html` file by navigating to the project directory and double-clicking on the file.
+
+### Optional: Using a Local Server
+
+If you prefer to run the project on a local server for better performance and compatibility, follow these additional steps:
+
+1. **Install Node.js and npm**
+
+    Download and install Node.js from [here](https://nodejs.org/).
+
+2. **Install Live Server**
+
+    Install the `live-server` package globally using npm:
+
+    ```sh
+    npm install -g live-server
+    ```
+
+3. **Run the Local Server**
+
+    Start the server by running the following command in the project directory:
+
+    ```sh
+    live-server
+    ```
+
+    This will open the project in your default web browser and automatically reload the page whenever you make changes to the files.
 
 ## Usage
 
@@ -118,19 +171,26 @@ We welcome contributions to the Mental Health Support Platform! To contribute:
 
 1. Fork the repository.
 2. Create a new branch:
+
     ```sh
     git checkout -b feature/your-feature-name
     ```
+
 3. Make your changes and commit them:
+
     ```sh
     git commit -m 'Add some feature'
     ```
+
 4. Push to the branch:
+
     ```sh
     git push origin feature/your-feature-name
     ```
+
 5. Open a pull request.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
