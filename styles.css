@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e8eced; /* Light greenish background */
+}
+
+header {
+    background-color: #2e8b57; /* Sea green for the header */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logos {
+    display: flex;
+    align-items: center;
+}
+
+#logos img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+#logos h1 {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #3cb371;
+    border-radius: 5px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 10%;
+    background-color: #f3f8f9; /* Very light green */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #47715a;
+    font-size: 28px;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+#home {
+    background-color: #bddcce;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#titles {
+    font-size: 32px;
+    color: hsl(60, 4%, 95%);
+    margin-bottom: 20px;
+    background-color: chocolate;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.resource-item h3 {
+    font-size: 24px;
+    color: #2e8b57;
+}
+
+.resource-item p a {
+    color: #2e8b57;
+    text-decoration: underline;
+}
+
+.user-class h3 {
+    font-size: 22px;
+    color: #2e8b57;
+    margin-bottom: 10px;
+}
+
+.user-class ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #2e8b57;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+footer a {
+    color: #98fb98;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
