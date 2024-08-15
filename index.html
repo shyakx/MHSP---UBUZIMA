@@ -26,28 +26,61 @@
     <section id="home">
         <h2 id="titles"><strong>MHSP UBUZIMA</strong></h2>
         <h2>WELCOME TO MHSP-UBUZIMA</h2>
-        <p>Our mission is to provide accessible, culturally sensitive mental health resources and support to individuals across Africa. We offer a range of services including educational materials, self-assessment tools, peer support forums, and professional counseling services.</p>
-        <p>Explore our platform to find information, connect with others, and get the help you need to improve your mental well-being.</p>
+        <p>Welcome to MHSP-UBUZIMA, where your journey to mental well-being begins. Our platform is dedicated to providing accessible and culturally tailored mental health resources and support to individuals across Africa. We understand that mental health is a deeply personal experience, and our mission is to bridge the gap between individuals and the support they need.</p>
+    
+        <p>At MHSP-UBUZIMA, we offer a comprehensive range of services designed to cater to various aspects of mental health. Our educational materials are crafted to inform and empower you with knowledge about mental health conditions, treatment options, and self-care practices. Whether you're seeking to understand more about mental health challenges or looking for ways to enhance your emotional resilience, our resources are here to guide you.</p>
+    
+        <p>Our innovative self-assessment tools allow you to reflect on your mental health and gain insights into your emotional state. These tools are designed to provide you with a clearer picture of your well-being, helping you make informed decisions about seeking support or implementing self-care strategies.</p>
+    
+        <p>We also offer a supportive peer community where you can connect with others who may be experiencing similar challenges. Sharing experiences and offering mutual support can be incredibly empowering, and our platform provides a safe and respectful space for these interactions.</p>
+    
+        <p>For those seeking professional guidance, our platform features access to qualified mental health professionals who can offer expert counseling services. Whether you're dealing with stress, anxiety, depression, or any other mental health concern, our network of professionals is here to provide compassionate and confidential support tailored to your needs.</p>
+    
+        <p>As you explore our platform, you'll find a wealth of resources designed to enhance your mental well-being. From informative articles and engaging videos to interactive tools and supportive communities, MHSP-UBUZIMA is your partner in navigating the path to better mental health.</p>
+    
+        <p>Join us on this journey towards improved mental well-being. Discover valuable resources, connect with others, and take proactive steps to enhance your emotional health. Together, we can create a supportive environment where everyone has the opportunity to thrive.</p>
     </section>
+    
 
     <section id="resources">
         <h2>Educational Resources</h2>
         <div class="resource-item">
-            <h3>Understanding Mental Health</h3>
-            <p>This article provides an overview of mental health, including common conditions, symptoms, and treatment options. <a href="#">Read more</a>.</p>
-        </div>
-        <div class="resource-item">
             <h3>Video: Coping Strategies for Stress</h3>
-            <p>Watch this video to learn practical strategies for managing stress and enhancing your emotional resilience. <a href="https://www.youtube.com/watch?v=15GaKTP0gFE" target="_blank">Watch now</a>.</p>
+            <p>Watch this video to learn practical strategies for managing stress and enhancing your emotional resilience.</p>
+            
+            <div class="video-container">
+                <iframe width="560" height="315" 
+                        src="https://www.youtube.com/embed/15GaKTP0gFE" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+                <a class="video-overlay" href="https://www.youtube.com/watch?v=15GaKTP0gFE" target="_blank"></a>
+            </div>
         </div>
+        
         <div class="resource-item">
-            <h3>Infographic: Signs of Depression</h3>
-            <p>View our infographic to understand the key signs of depression and when to seek help. <a href="https://www.youtube.com/watch?v=z-IR48Mb3W0" target="_blank">View infographic</a>.</p>
+            <h3>Video: Understanding Depression</h3>
+            <p>Watch this video to gain insights into the key signs of depression and learn when to seek help.</p>
+            
+            <div class="video-container">
+                <iframe width="560" height="315" 
+                        src="https://www.youtube.com/embed/z-IR48Mb3W0" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                </iframe>
+                <a class="video-overlay" href="https://www.youtube.com/watch?v=z-IR48Mb3W0" target="_blank"></a>
+            </div>
         </div>
+        
     </section>
 
     <section id="self-assessment">
         <h2>Self-Assessment Tool</h2>
+        <p>Take a moment to reflect on how you're feeling today. Use our self-assessment tool to gain insights into your mental well-being and determine if you may benefit from additional support or resources.</p>
         <form id="assessment-form">
             <label for="mood">How are you feeling today?</label>
             <select id="mood" name="mood">
@@ -57,7 +90,9 @@
             </select>
             <button type="button" onclick="submitAssessment()">Submit</button>
         </form>
-        <div id="assessment-result"></div>
+        <div id="assessment-result">
+            <!-- Result will be displayed here -->
+        </div>
     </section>
 
     <section id="user-classes">
@@ -150,6 +185,20 @@
         </div>
     </section>
 
+    <section id="partners">
+        <h2>Our Esteemed Partners</h2>
+        <div class="partner-logos">
+            <a href="https://www.moh.gov.rw/" target="_blank">
+                <img src="Ministry.jpg" alt="MINISANTE">
+            </a>
+            <a href="https://rbc.gov.rw/rbc/" target="_blank">
+                <img src="rbc.jpg" alt="RBC">
+            </a>
+            <!-- Add more partner logos as needed -->
+        </div>
+    </section>
+    
+
     <footer>
         <p>&copy; 2024 Mental Health Support Platform. All rights reserved.</p>
         <p>Follow us on <a href="#">Facebook</a>, <a href="#">Twitter</a>, and <a href="#">Instagram</a>.</p>
@@ -158,3 +207,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
